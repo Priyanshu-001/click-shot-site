@@ -23,11 +23,14 @@
 
         <!-- GIF placeholder -->
         <div class="relative">
-          <div
-            class="aspect-video rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center text-gray-400"
-          >
-            Demo GIF
-          </div>
+         <video
+  src="/video/one.mp4"
+  autoplay
+  loop
+  muted
+  playsinline
+  class="w-full h-full object-cover rounded-xl"
+></video>
         </div>
       </div>
     </UContainer>

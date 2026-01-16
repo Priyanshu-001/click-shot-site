@@ -24,13 +24,15 @@
         </p>
       </div>
 
-      <div
-        class="aspect-video rounded-2xl bg-white/40 dark:bg-white/5
-               backdrop-blur-xl border border-white/20 dark:border-white/10
-               flex items-center justify-center text-gray-400 shadow-lg"
-      >
-        Step 1 GIF
-      </div>
+         <video
+  src="/video/one.mp4"
+  autoplay
+  loop
+  muted
+  controls
+  playsinline
+  class="w-full h-full object-cover rounded-xl"
+></video>
     </div>
 
     <!-- Step 2 -->
@@ -46,13 +48,15 @@
         </p>
       </div>
 
-      <div
-        class="aspect-video rounded-2xl bg-white/40 dark:bg-white/5
-               backdrop-blur-xl border border-white/20 dark:border-white/10
-               flex items-center justify-center text-gray-400 shadow-lg md:order-1"
-      >
-        Step 2 GIF
-      </div>
+        <video
+  src="/video/two.mp4"
+  autoplay
+  loop
+  muted
+  controls
+  playsinline
+  class="w-full h-full object-cover rounded-xl"
+></video>
     </div>
 
     <!-- Step 3 -->
@@ -67,14 +71,14 @@
           revision, and long-term storage.
         </p>
       </div>
-
-      <div
-        class="aspect-video rounded-2xl bg-white/40 dark:bg-white/5
-               backdrop-blur-xl border border-white/20 dark:border-white/10
-               flex items-center justify-center text-gray-400 shadow-lg"
-      >
-        Step 3 GIF
-      </div>
+   <video
+  src="/video/three.mp4"
+  autoplay
+  loop
+  muted
+  controls
+  playsinline
+  class="w-full h-full object-cover rounded-xl" />
     </div>
   </UContainer>
 </template>
