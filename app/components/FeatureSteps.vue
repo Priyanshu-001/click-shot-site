@@ -18,7 +18,7 @@
           Capture without pausing your brain
         </h3>
         <p class="mt-4 text-gray-500 dark:text-gray-400">
-          Press <strong>Ctrl + Shift + L</strong> (customizable) to instantly
+          Press <strong>Ctrl + Shift + K</strong> (customizable) to instantly
           capture and annotate key movements while you’re learning — no pause,
           no context switch.
         </p>

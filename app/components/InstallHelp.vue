@@ -12,9 +12,11 @@
           <li class="flex gap-2">
             <span>🎯</span>
             <span>
-              Press <b>Ctrl + Shift + L</b> to start capturing and annotating
+              Press <b>Ctrl + Shift + K</b> to start capturing and annotating
               key moments (shortcut is customizable).
+              If the shortcut does not work then please change the hotkey.
             </span>
+            
           </li>
           
           <li class="flex gap-2">
@@ -64,4 +66,26 @@ const emit = defineEmits(["close"])
 function close() {
   emit("close")
 }
+
+const openShortcutPage = () => {
+  window.open('chrome://extensions/shortcuts', '_blank');
+};
 </script>
+
+<style scoped>
+    .yellow-alert {
+  background: #fff7cc;
+  color: #7a5d00;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  border: 1px solid #ffe08a;
+}
+
+.yellow-alert a {
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+</style>
