@@ -1,4 +1,7 @@
 <script setup>
+import InstallHelp from './components/InstallHelp.vue'
+
+   const route = useRoute()
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -10,6 +13,9 @@ useHead({
     lang: 'en'
   }
 })
+
+const overlay = useOverlay()
+const modal = overlay.create(InstallHelp)
 
 const title = 'ClickShot'
 const description = 'Capture key movements without interrupting your study'
@@ -23,10 +29,24 @@ useSeoMeta({
   twitterImage: 'card.png',
   twitterCard: 'summary_large_image'
 })
+
+const showInstallHelp = ref(false)
+
+onMounted(() => {
+ 
+  if (route.query.atInstall) {
+    console.log("Opening")
+     modal.open()
+    // showInstallHelp.value = true
+    // router.replace({ query: {} }) // remove param
+  }
+})
+
 </script>
 
 <template>
   <UApp>
+   <InstallHelp :open="showInstallHelp" />
     <UHeader>
       <template #left>
 <NuxtLink
@@ -39,12 +59,11 @@ useSeoMeta({
     ><span class="text-primary">Shot</span>
   </span>
 </NuxtLink>
-
-
-
       </template>
 
       <template #right>
+        <UButton icon="i-heroicons-light-bulb"  label="Get started" @click="()=>modal.open()"/>
+
         <UColorModeButton />
       </template>
     </UHeader>
@@ -64,7 +83,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
+          to="https://github.com/Priyanshu-001/click-shot"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
