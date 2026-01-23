@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-hidden">
     <!-- Gradient -->
-    <div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-indigo-500/10 to-purple-500/20" />
+    <div class="absolute inset-0 bg-linear-to-br from-primary/20 via-indigo-500/10 to-purple-500/20" />
 
     <UContainer class="relative py-24">
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -16,8 +16,7 @@
           </p>
 
           <div class="mt-8 flex gap-3">
-            <UButton size="lg">Install Extension</UButton>
-            <UButton size="lg" variant="outline">Watch Demo</UButton>
+            <UButton size="lg" href="#installNow" icon="i-heroicons-arrow-down-tray">Install Extension</UButton>
           </div>
         </div>
 
