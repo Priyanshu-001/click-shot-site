@@ -77,7 +77,12 @@ onMounted(() => {
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          Will add contact here
+        <a
+            href="mailto:clickshotcontact@gmail.com"
+            class="underline hover:opacity-80"
+          >
+            clickshotcontact@gmail.com
+          </a>
         </p>
       </template>
 
