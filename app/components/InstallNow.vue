@@ -12,16 +12,22 @@
 
       <!-- Stores -->
       <div class="mt-14 flex justify-center gap-12">
-        <button class="group flex flex-col items-center gap-3">
+
+        <a
+          class="group flex flex-col items-center gap-3"
+          href="https://microsoftedge.microsoft.com/addons/detail/clickshot/dhcgjgnkieiichjokpmabpbchgnlpngn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <UIcon
             name="i-logos-chrome"
             class="w-12 h-12 transition-transform group-hover:scale-110"
           />
           <span class="text-xs text-gray-500 dark:text-gray-400">
-            Chrome Store [Comming soon]
+            Chrome Web Store
           </span>
-        </button>
-
+        </a>
+        
         <!-- <button class="group flex flex-col items-center gap-3">
           <UIcon
             name="i-logos-firefox"
