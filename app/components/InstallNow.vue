@@ -15,7 +15,7 @@
 
         <a
           class="group flex flex-col items-center gap-3"
-          href="https://microsoftedge.microsoft.com/addons/detail/clickshot/dhcgjgnkieiichjokpmabpbchgnlpngn"
+          href="https://chromewebstore.google.com/detail/ikhjocjngipenhemlmimnnmnnjjmlmnd?utm_source=item-share-cb"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -27,7 +27,7 @@
             Chrome Web Store
           </span>
         </a>
-        
+
         <!-- <button class="group flex flex-col items-center gap-3">
           <UIcon
             name="i-logos-firefox"
