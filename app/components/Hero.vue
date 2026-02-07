@@ -8,13 +8,12 @@
         <!-- Text -->
         <div>
           <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-            Capture key movements without interrupting your study.
+           Stay focused. Revisit the exact moment later.
           </h1>
 
           <p class="mt-6 text-lg text-gray-500 dark:text-gray-400">
-            Instantly screenshot videos with timestamps and notes — stay focused while learning.
+            Instantly take video notes with screenshots and timestamps, so you can return to the exact moment later. All without exiting the full screen.          
           </p>
-
           <div class="mt-8 flex gap-3">
             <UButton size="lg" href="#installNow" icon="i-heroicons-arrow-down-tray">Install Extension</UButton>
           </div>
