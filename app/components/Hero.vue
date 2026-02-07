@@ -12,7 +12,7 @@
           </h1>
 
           <p class="mt-6 text-lg text-gray-500 dark:text-gray-400">
-            Instantly take video notes with screenshots and timestamps, so you can return to the exact moment later. All without exiting the full screen.          
+            Instantly take video notes with screenshots and timestamps, so you can return to the exact moment later. Easy note taking without exiting the full screen.          
           </p>
           <div class="mt-8 flex gap-3">
             <UButton size="lg" href="#installNow" icon="i-heroicons-arrow-down-tray">Install Extension</UButton>
