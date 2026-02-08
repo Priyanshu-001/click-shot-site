@@ -1,5 +1,5 @@
 <template>
-    <section class="relative">
+    <section class="relative" id="demo">
      <div class="bg-linear-to-br from-primary/20 via-indigo-500/10 to-purple-500/20 py-24" >
         <UContainer class="text-center">
        <div class="mb-12">     

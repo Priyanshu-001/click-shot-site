@@ -16,6 +16,8 @@
           </p>
           <div class="mt-8 flex gap-3">
             <UButton size="lg" href="#installNow" icon="i-heroicons-arrow-down-tray">Install Extension</UButton>
+            <UButton size="lg" href="#demo" icon="i-heroicons-eye" variant="outline">Watch Demo</UButton>
+
           </div>
         </div>
 

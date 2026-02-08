@@ -2,6 +2,7 @@
 import FeatureSteps from '~/components/FeatureSteps.vue';
 import Hero from '~/components/Hero.vue';
 import InstallNow from '~/components/InstallNow.vue';
+import WatchDemo from '~/components/WatchDemo.vue';
 import WhyYouWillLoveIt from '~/components/WhyYouWillLoveIt.vue';
 
 </script>
@@ -11,6 +12,7 @@ import WhyYouWillLoveIt from '~/components/WhyYouWillLoveIt.vue';
    <Hero/>
    <FeatureSteps/>
    <WhyYouWillLoveIt/>
-  <InstallNow/>
+   <WatchDemo/>
+   <InstallNow/>
   </div>
 </template>
