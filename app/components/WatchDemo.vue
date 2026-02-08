@@ -4,11 +4,8 @@
         <UContainer class="text-center">
        <div class="mb-12">     
         <h2 class="text-3xl md:text-4xl font-bold">
-            Checkout our Demo.
+            See Clickshot in action
         </h2>
-        <p class="mt-4 text-gray-500 dark:text-gray-400">
-           See Clickshot in action.
-        </p>
       </div>
 
       <video src="/video/demo-3.mp4"  controls></video>
