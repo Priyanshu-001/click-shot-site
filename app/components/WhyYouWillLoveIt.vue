@@ -2,10 +2,10 @@
   <section class="relative">
     <!-- Background -->
     <div
-      class="absolute inset-0 bg-gradient-to-br
+      class="bg-linear-to-br
              from-slate-50 via-indigo-50/40 to-purple-50
              dark:from-gray-950 dark:via-indigo-950/30 dark:to-purple-950/30"
-    />
+    >
 
     <UContainer class="relative py-24">
       <!-- Heading -->
@@ -14,7 +14,7 @@
           Why you’ll love ClickShot
         </h2>
         <p class="mt-4 text-gray-500 dark:text-gray-400">
-          Built for learning workflows that value focus and recall.
+          Easy to use, fast and simple.
         </p>
       </div>
 
@@ -52,5 +52,6 @@
         />
       </div>
     </UContainer>
+    </div>
   </section>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-hidden">
     <!-- Gradient -->
-    <div class="absolute inset-0 bg-linear-to-br from-primary/20 via-indigo-500/10 to-purple-500/20" />
+    <div class="bg-linear-to-br from-primary/20 via-indigo-500/10 to-purple-500/20" >
 
     <UContainer class="relative py-24">
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -19,18 +19,19 @@
           </div>
         </div>
 
-        <!-- GIF placeholder -->
         <div class="relative">
          <video
-  src="/video/one.mp4"
-  autoplay
-  loop
-  muted
-  playsinline
-  class="w-full h-full object-cover rounded-xl"
-></video>
+        src="/video/one.mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+        class="w-full h-full object-cover rounded-xl"
+      ></video>
         </div>
       </div>
     </UContainer>
+  </div>
+
   </section>
 </template>
