@@ -4,7 +4,8 @@ import InstallHelp from './components/InstallHelp.vue'
    const route = useRoute()
 useHead({
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    {name: 'google-site-verification', content: 'l045IWohr93lC66_-JSkcyT1hScYSdPO_kGtD9-rLUE'}
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' }
@@ -46,7 +47,6 @@ onMounted(() => {
 
 <template>
   <UApp>
-    <meta name="google-site-verification" content="l045IWohr93lC66_-JSkcyT1hScYSdPO_kGtD9-rLUE" />
    <InstallHelp :open="showInstallHelp" />
     <UHeader>
       <template #left>
