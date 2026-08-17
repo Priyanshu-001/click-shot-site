@@ -46,6 +46,7 @@ onMounted(() => {
 
 <template>
   <UApp>
+    <meta name="google-site-verification" content="l045IWohr93lC66_-JSkcyT1hScYSdPO_kGtD9-rLUE" />
    <InstallHelp :open="showInstallHelp" />
     <UHeader>
       <template #left>
