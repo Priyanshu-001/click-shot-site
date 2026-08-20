@@ -8,11 +8,14 @@
         <!-- Text -->
         <div>
           <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-           Stay focused. Revisit the exact moment later.
+           Turn YouTube moments into notes you can find again.
           </h1>
 
           <p class="mt-6 text-lg text-gray-500 dark:text-gray-400">
-            Instantly take video notes with screenshots and timestamps, so you can return to the exact moment later. Easy note taking without exiting the full screen.          
+            ClickShot is a Chrome extension for people who learn from video. Capture a screenshot, add a note, and keep a timestamped link to the exact moment — without leaving full-screen mode.
+          </p>
+          <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">
+            Perfect for students, researchers, and anyone taking notes from YouTube or HTML5 video.
           </p>
           <div class="mt-8 flex gap-3">
             <UButton size="lg" href="#installNow" icon="i-heroicons-arrow-down-tray">Install Extension</UButton>

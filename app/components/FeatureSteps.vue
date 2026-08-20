@@ -1,26 +1,24 @@
 <template>
   <UContainer class="py-24">
     <!-- Title -->
-    <div class="text-center mb-20">
-      <h2 class="text-3xl md:text-4xl font-bold">
-        How ClickShot helps you in 3 steps
-      </h2>
-      <p class="mt-4 text-gray-500 dark:text-gray-400">
-        Capture, remember, and reuse what actually matters.
-      </p>
-    </div>
+      <div class="text-center mb-20">
+        <h2 class="text-3xl md:text-4xl font-bold">
+          How ClickShot works
+        </h2>
+        <p class="mt-4 text-gray-500 dark:text-gray-400">
+        Save the moment, keep the timestamp, and reuse your notes anywhere.
+        </p>
+      </div>
 
     <!-- Step 1 -->
     <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
       <div>
         <span class="text-primary font-semibold">Step 1</span>
         <h3 class="text-2xl font-semibold mt-2">
-          Capture without pausing your brain
+          Capture without leaving full screen
         </h3>
         <p class="mt-4 text-gray-500 dark:text-gray-400">
-          Press <strong>Ctrl + Shift + K</strong> (customizable) to instantly
-          capture and annotate key movements while you’re learning — no pause,
-          no context switch.
+          Press <strong>Ctrl + Shift + K</strong> (customizable) to save a screenshot and note from YouTube or HTML5 video without breaking your flow.
         </p>
       </div>
 
@@ -40,11 +38,10 @@
       <div class="md:order-2">
         <span class="text-primary font-semibold">Step 2</span>
         <h3 class="text-2xl font-semibold mt-2">
-          Everything saved exactly where it happened
+          Every note keeps the exact timestamp
         </h3>
         <p class="mt-4 text-gray-500 dark:text-gray-400">
-          All your notes live in ClickShot’s home — each one linked directly
-          to the exact video moment you captured.
+          Each note links back to the exact video moment you captured, so you can revisit it later in one click.
         </p>
       </div>
 
@@ -64,11 +61,10 @@
       <div>
         <span class="text-primary font-semibold">Step 3</span>
         <h3 class="text-2xl font-semibold mt-2">
-          Export notes wherever you think best
+          Copy notes to your note app
         </h3>
         <p class="mt-4 text-gray-500 dark:text-gray-400">
-          Copy notes in one click to your favorite note-taking app for syncing,
-          revision, and long-term storage.
+          Export your timestamped notes to Obsidian, OneNote, or any note-taking app you use.
         </p>
       </div>
    <video

@@ -23,7 +23,7 @@
         <FeatureCard
           icon="i-heroicons-pencil-square"
           title="Annotate instantly"
-          desc="Capture and write notes the moment something important happens."
+          desc="Capture screenshots and write notes the moment something important happens on YouTube or HTML5 video."
         />
         <FeatureCard
           icon="i-heroicons-arrow-path"
@@ -38,7 +38,7 @@
         <FeatureCard
           icon="i-heroicons-arrow-up-on-square"
           title="Export anywhere"
-          desc="Copy notes to any note-taking app you prefer."
+          desc="Copy timestamped notes to Obsidian, OneNote, or any app you prefer."
         />
         <FeatureCard
           icon="i-heroicons-lock-closed"

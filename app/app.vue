@@ -18,8 +18,8 @@ useHead({
 const overlay = useOverlay()
 const modal = overlay.create(InstallHelp)
 
-const title = 'ClickShot'
-const description = 'Capture key movements without interrupting your study'
+const title = 'ClickShot | YouTube Notes Taker'
+const description = 'Turn YouTube and HTML5 video moments into screenshots, timestamped notes, and instant links with one hotkey. Built for people who take notes from video.'
 
 useSeoMeta({
   title,
